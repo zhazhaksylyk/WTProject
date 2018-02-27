@@ -1,0 +1,64 @@
+.book-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 200px;
+
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+}
+.cart-mode{
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	margin-top: 200px;
+}
+.displayCategory{
+  position: absolute;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  font-family: times, Times New Roman, times-roman, georgia, serif;
+  font-size: 38px;
+  line-height: 40px;
+  letter-spacing: -1px;
+  color: #DC143C;
+  text-align: center;
+  margin-left: 450px;
+}
+
+.footer{
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #19194C;
+   color: white;
+   text-align: center;
+  font-family: times, Times New Roman, times-roman, georgia, serif;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: -1px;
+}
+
+.footer-icons{
+
+}
+.totalPrice{
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -1px;
+    color: #DC143C;
+    margin-left: 500px;
+}
+.checkout{
+  color: #3366ff;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 24px;
+  border-radius: 4px;
+  margin-left: 500px;
+  margin-bottom: 20px;
+}

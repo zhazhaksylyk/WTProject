@@ -1,0 +1,57 @@
+.cart-table{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.cart-table th{
+	padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #3366ff;
+    color: white;
+}
+
+.cart-table td, .cart-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.remove-btn{
+    color: #3366ff;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 16px; 
+	cursor:pointer;
+}
+.cartItem-btn1{
+    color: #3366ff;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+}
+.cartItem-btn2{
+    color: #3366ff;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+}
+.add-btn{
+	color: #3366ff;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 16px;
+	margin-bottom: 30px;
+	border-radius: 4px;
+}
+
+button:hover {
+  background-color: #000099;
+  color: white;
+}
+
+.cart-h{
+	font-family: times, Times New Roman, times-roman, georgia, serif;
+    font-size: 38px;
+    line-height: 40px;
+    letter-spacing: -1px;
+    color: #DC143C;
+	margin-left: 500px;
+}

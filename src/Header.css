@@ -1,0 +1,60 @@
+.container{
+	position: absolute;
+	display: flex;
+	flex-direction: row-reverse;
+	border:1px solid #CCC;
+    width: 100%;
+    background-color: #19194C;
+    padding:2%;
+    margin-bottom: 20px;
+}
+
+.logo-cart{
+ width: 3%;
+ height: 3%;
+ padding: 1%;
+ pointer: cursor;
+}
+.logo-cart{
+	cursor: pointer;
+}
+
+.logo-account{
+ width: 3%;
+ height: 3%;
+ margin-right: 20px;
+ padding: 1%;
+ cursor: pointer;
+}
+.logo{
+ width: 10%;
+ height: 10%;
+ padding: 1%;
+ margin-right: 390px;
+ cursor: pointer;
+}
+.header-search{
+	display: flex;
+	width: 45%;
+	margin-right: 35px;
+	margin-top: 18px;
+	height:  35px;
+	font-size: 16px;
+	 font-family: 'Oxygen', sans-serif;
+	margin: 7px;
+	padding: 5px;
+}
+
+.btn-categories{
+	margin-right: 30px;
+	font-size: 16px;
+	font-family: "Oxygen", sans-serif;
+	height: 50px;
+	margin-top: 10px;
+	color: blue;
+}
+
+.title{
+	margin-right: 135px;
+	color: #ff6666;
+}
