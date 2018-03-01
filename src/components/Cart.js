@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import './Cart.css';
-import h from './h.jpg';
+import '../styles/Cart.css';
 
 class CartItem extends Component{
 	constructor(props){
@@ -33,7 +32,7 @@ class CartItem extends Component{
 		return(
 			<tr className = "cart-item">
 
-			<td><img className = "cartItem-img" src = {h} width = "80px" height = "100px"/></td> 
+			<td><img className = "cartItem-img" src = {this.props.image} width = "80px" height = "100px"/></td> 
             <td className = "cartItem-title">{this.props.title}</td>
             <td className = "cartItem-author">{this.props.author}</td>
              <td className = "cartItem-price"> $ {this.props.price}</td>

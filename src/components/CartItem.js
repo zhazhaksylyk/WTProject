@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './Cart.css';
-import h from './h.jpg';
+import '../styles/Cart.css';
+import h from '../images/h.jpg';
 
 export class CartItem extends Component{
 	constructor(props){

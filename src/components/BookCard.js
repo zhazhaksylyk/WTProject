@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './carouselStyle.css';
+import '../styles/carouselStyle.css';
 
 class BookCard extends Component {
   constructor(props){
@@ -13,7 +13,7 @@ class BookCard extends Component {
       <div className='BookCard' style={this.props.style}>
         
       <div className='Cover'>
-        <img src={require('./3main/bookShelf/booksImgs/' + this.props.bookInfo.image)} />
+        <img src={require('../3main/bookShelf/booksImgs/' + this.props.bookInfo.image)} />
       </div>
 
         <div className='Info'>

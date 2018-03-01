@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './Book.css';
-import b3 from './b3.jpg';
+import '../styles/Book.css';
+import b3 from '../images/b3.jpg';
 
-export class BookItem extends Component{
+export class Book extends Component{
 	constructor(props){
 		super(props);
 		//this.state = {
@@ -17,9 +17,6 @@ export class BookItem extends Component{
       //});
 
     }
-    handleAddToWLClicked = (e) => {
-    	this.props.onAddToWLClicked(this.props.index);
-    }
 	render(){
 		return(
 			<div className = "book-wrapper">
@@ -29,7 +26,7 @@ export class BookItem extends Component{
 			<div className = "book-price"> {this.props.price} USD</div>
 			<button className = "btn-ATCart" onClick = {this.handleClick} disabled = {this.props.isInCart}>
 			Add to Cart</button>
-            <button onClick = {this.handleAddToWLClicked} className = "wl"> ♥ Add to WishList </button>
+            <div className = "wl"> ♥ Add to WishList </div>
 			</div>
 		
 			);

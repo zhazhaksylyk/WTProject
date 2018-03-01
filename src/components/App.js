@@ -1,23 +1,30 @@
 import React, { Component } from 'react';
-import './App.css';
+import '../styles/App.css';
 import { Header } from './Header.js';
 import { Cart } from './Cart.js';
 import { BookItem } from './BookItem.js';
 import  Carousel  from './Carousel.js';
-import Main from './3main/Main';
-import b3 from './b3.jpg';
+import Main from '../3main/Main';
+import b3 from '../images/b3.jpg';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom"; 
 import {Account} from './Account.js';
-import facebook from './facebook.png';
-import twitter from './twitter.png';
-import instagram from './instagram.png';
-import pinterest from './pinterest.png';
-
+import facebook from '../images/facebook.png';
+import twitter from '../images/twitter.png';
+import instagram from '../images/instagram.png';
+import pinterest from '../images/pinterest.png';
+import chaos from '../images/chaos.jpg';
+import moan from '../images/noam.jpg';
+import me from '../images/me.jpg';
+import zumba from '../images/zumba.jpg';
+import caesar from '../images/caesar.jpg';
+import fox from '../images/fox.jpg';
+import aerobics from '../images/aerobics.jpg';
+import moon from '../images/moon.jpg';
 
 var BOOKS = [
 {
   id: 1,
-  image: '',
+  image: moon,
   title: 'New moon',
   author: 'Stephenie Meyer',
   price: 20,
@@ -28,7 +35,7 @@ var BOOKS = [
 },
 {
   id: 2,
-  image: '../src/account.jpg',
+  image: chaos ,
   title: 'Chaos',
   author: 'James Gleick',
   price: 15,
@@ -39,7 +46,7 @@ var BOOKS = [
 },
 {
   id: 3,
-  image: '../src/account.jpg',
+  image: b3,
   title: 'Monte Cristo',
   author: 'Alexandre Dumas',
   price: 25,
@@ -50,7 +57,7 @@ var BOOKS = [
 },
 {
   id: 4,
-  image: '../src/account.jpg',
+  image: zumba,
   title: 'Zumba',
   author: 'Beto Perez',
   price: 25,
@@ -61,7 +68,7 @@ var BOOKS = [
 },
 {
   id: 5,
-  image: '../src/account.jpg',
+  image: caesar,
   title: 'Caesars',
   author: 'Gaius Suetonius',
   price: 25,
@@ -72,7 +79,7 @@ var BOOKS = [
 },
 {
   id: 6,
-  image: '../src/account.jpg',
+  image: moan,
   title: 'New Generation',
   author: 'Noam Chomsky',
   price: 25,
@@ -83,7 +90,7 @@ var BOOKS = [
 },
 {
   id: 7,
-  image: '../src/account.jpg',
+  image: aerobics,
   title: 'Aerobics',
   author: 'Nina McIntosh',
   price: 25,
@@ -94,7 +101,7 @@ var BOOKS = [
 },
 {
   id: 8,
-  image: '../src/account.jpg',
+  image: fox,
   title: 'Fox in Socks',
   author: 'Dr Seuss',
   price: 25,
@@ -105,7 +112,7 @@ var BOOKS = [
 },
 {
   id: 9,
-  image: '../src/account.jpg',
+  image: me,
   title: 'Me before you',
   author: 'Jojo Moyes',
   price: 25,

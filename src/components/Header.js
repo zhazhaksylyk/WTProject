@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './Header.css';
-import icart from './cart.png';
-import iaccount from './account.png';
-import ilogo from './logo.png';
+import '../styles/Header.css';
+import icart from '../images/cart.png';
+import iaccount from '../images/account.png';
+import ilogo from '../images/logo.png';
 import {Cart} from './Cart.js';
 import {Account} from './Account.js';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom"; 

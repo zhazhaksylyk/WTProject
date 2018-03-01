@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './carouselStyle.css';
-import bookInfo from './books.json';
+import '../styles/carouselStyle.css';
+import bookInfo from '../books.json';
 import BookCard from './BookCard';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
